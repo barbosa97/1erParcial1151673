@@ -1,9 +1,41 @@
-a.button{
+#button{
 
--webkit-appearance: button;
--moz-appearance: button;
-appearance: button;
-text-decoration: none;
-color: initial;
+  padding: 0px;
 
 }
+#button li{
+
+  display: inline;
+}
+#button li a{
+
+  font-family: arial;
+  font-size: 15px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: #2175bc;
+  color:#fff;
+
+}
+#enlace1{
+
+  display:inline;
+  border:0;
+  padding:0;
+  margin:0;
+  text-decoration:underline;
+  background:none;
+  color:#000088;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height:1em;
+}
+
+.enlace1:hover {
+  text-decoration:none;
+  color:#ffff;
+  cursor:pointer;
+}
+
+
